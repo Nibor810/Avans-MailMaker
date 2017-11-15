@@ -16,7 +16,7 @@ namespace DocentmailMaker
             string fileData = "";
             foreach (var item in mailItems)
             {
-                fileData += GetMail(item.getName(), item.getSubject(), item.getCode());
+                fileData += GetMailDocentevaluatie(item.getName(), item.getSubject(), item.getCode());
             }
             CreateFile(fileData);
         }
@@ -26,7 +26,7 @@ namespace DocentmailMaker
             File.WriteAllText(_fileLocation, fileData);
         }
 
-        private string GetMail(string name, string subject, string code)
+        private string GetMailDocentevaluatie(string name, string subject, string code)
         {
             return
                 " \r\n" +
