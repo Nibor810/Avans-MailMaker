@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocentmailMaker", "DocentmailMaker\DocentmailMaker.csproj", "{2B7A7060-E4C7-45F3-83FC-5DC5F650FF67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B7A7060-E4C7-45F3-83FC-5DC5F650FF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7A7060-E4C7-45F3-83FC-5DC5F650FF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7A7060-E4C7-45F3-83FC-5DC5F650FF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7A7060-E4C7-45F3-83FC-5DC5F650FF67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {909D4A1C-AA16-4C10-80DB-2A2FE3B7F2A3}
+	EndGlobalSection
+EndGlobal
